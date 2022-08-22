@@ -1,0 +1,10 @@
+.box{
+    background-color: red;
+    height: 100px;
+    /* tinh ke thua cua h3 ung dung khi co nhieu dong h3 */
+    text-align: center;
+    line-height: 100px;
+}
+h3{
+
+}

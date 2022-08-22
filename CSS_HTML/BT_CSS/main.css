@@ -1,0 +1,16 @@
+/* h1{
+    color:red;
+    font-size: 30px;
+} */
+#first-heading {
+    color:red;
+    font-size: 30px;
+} 
+.second-heading{
+    color:green;
+    font-size: 20px;
+}
+.bo1{
+    width: 25%;
+    background-color: rgb(255, 217, 0);
+}

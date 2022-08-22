@@ -1,0 +1,7 @@
+:root{
+    --bienna: blue;
+}
+
+h1{
+    color: var(--bienna);
+}

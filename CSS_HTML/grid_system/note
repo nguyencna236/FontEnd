@@ -1,0 +1,22 @@
+Tạm hiểu cách chia như sau để dễ ghi nhớ:
+sử dụng và không sử dụng wide (giới hạn wide màn hình)
+
+không sử dụng wide
+- mobile full screen
+- tablet full screen min-width 740px
+- PC full screen min-width 1113px
+
+sử dụng wide (mục đích tạo margin 2 lề cho người dùng dễ xem nội dung)
+- table width 644px (min-width 740px và max-width 1023px)
+- PC width 984px (min-width 1024px và max-width 1239px)
+
+---
+không dùng wide
+- 740px - 1113px: width 100%, padding 8px
+- 1114px trở lên: width 100%, padding 12px
+
+dùng wide
+- 740px - 1023px: width 644px, padding 8px
+- 1024px - 1113px: width 984px, padding 8px
+- 1114px - 1239px: width 984px, padding 12px
+- trên 1240px: width 1200px, padding 12px

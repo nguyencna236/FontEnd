@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue";
+}
+body > div{
+    margin:auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 12px 48px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: opacity .5s ease;
+    min-width: 120px;
+}
+.btn--size--l{
+    padding: 16px 48px;
+
+}
+.btn--size--s{
+    padding: 8px 32px;
+
+}
+.btn:hover{
+    opacity: 0.2;
+}
+.btn + .btn{
+    margin-left: 16px;
+}
+.btn--success{
+    background-color: greenyellow;
+}
+.btn--warn{
+    background-color: yellow;
+}
+.btn--danger{
+    background-color: red;
+}
+.btn--disabled{
+    opacity: 0.4 !important;
+    cursor: default;
+}
